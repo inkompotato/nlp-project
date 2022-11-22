@@ -1,0 +1,21 @@
+name: nlp
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - huggingface
+dependencies:
+  - python=3.10
+  - ipykernel
+  - numpy
+  - pandas
+  - networkx
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.6
+  - transformers
+  - pip
+  - pip:
+    - scikit-learn
+    - tqdm

@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - pytorch
   - huggingface
+  - nvidia
 dependencies:
   - python=3.10
   - ipykernel
@@ -11,11 +12,12 @@ dependencies:
   - pandas
   - networkx
   - pytorch
+  - pytorch-cuda=11.7 
   - torchvision
   - torchaudio
-  - cudatoolkit=11.6
   - transformers
   - pip
   - pip:
     - scikit-learn
     - tqdm
+    - evaluate

@@ -1,3 +1,9 @@
+Main papers:
+
+On the ability of monolingual models to learn language-agnostic representations - https://arxiv.org/pdf/2109.01942.pdf
+On the Cross-lingual Transferability of Monolingual Representations - https://aclanthology.org/2020.acl-main.421.pdf
+
+
 Question answering datasets for fine-tuning:
 
 English Squad: https://rajpurkar.github.io/SQuAD-explorer/
@@ -10,6 +16,7 @@ Vietnamese Squad: https://sites.google.com/uit.edu.vn/uit-nlp/datasets-projects
 Chinese (wikipedia based): https://github.com/DRCKnowledgeTeam/DRCD
 Arabic: https://github.com/husseinmozannar/SOQAL
 German: https://www.deepset.ai/germanquad
+
 
 Models:
 

@@ -1,0 +1,24 @@
+Question answering datasets for fine-tuning:
+
+English Squad: https://rajpurkar.github.io/SQuAD-explorer/
+Spanish Squad (machine translated): https://huggingface.co/datasets/squad_es
+Hindi: https://www.kaggle.com/competitions/chaii-hindi-and-tamil-question-answering/data
+Thai (wikipedia based): https://huggingface.co/datasets/thaiqa_squad
+Turkish Squad (machine translated): https://github.com/cbalkig/Turkish-NLP-SQuAD-Repo
+Turkish alternative: https://github.com/TQuad/turkish-nlp-qa-dataset
+Vietnamese Squad: https://sites.google.com/uit.edu.vn/uit-nlp/datasets-projects
+Chinese (wikipedia based): https://github.com/DRCKnowledgeTeam/DRCD
+Arabic: https://github.com/husseinmozannar/SOQAL
+German: https://www.deepset.ai/germanquad
+
+Models:
+
+English:
+Spanish: https://huggingface.co/bertin-project/bertin-roberta-base-spanish
+Hindi: https://huggingface.co/flax-community/roberta-hindi
+Thai: https://huggingface.co/airesearch/wangchanberta-base-wiki-spm
+Turkish: https://huggingface.co/dbmdz/bert-base-turkish-cased
+Vietnamese: https://huggingface.co/vinai/phobert-base
+Chinese: https://github.com/ttzHome/AnchiBERT
+Arabic: https://huggingface.co/aubmindlab/bert-base-arabertv2
+German: https://huggingface.co/uklfr/gottbert-base

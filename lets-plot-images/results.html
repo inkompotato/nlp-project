@@ -1,0 +1,99 @@
+            <iframe src='about:blank' style='border:none !important;' width='1000' height='500' srcdoc="&lt;html lang=&quot;en&quot;>
+   &lt;head>
+       &lt;style> html, body { margin: 0; overflow: hidden; } &lt;/style>
+       &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;library&quot; src=&quot;https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.5.1/js-package/distr/lets-plot.min.js&quot;>&lt;/script>
+   &lt;/head>
+   &lt;body>
+          &lt;div id=&quot;M4uKXI&quot;>&lt;/div>
+   &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;plot&quot;>
+       var plotSpec={
+&quot;kind&quot;:&quot;ggbunch&quot;,
+&quot;items&quot;:[{
+&quot;x&quot;:0,
+&quot;y&quot;:0,
+&quot;width&quot;:null,
+&quot;height&quot;:null,
+&quot;feature_spec&quot;:{
+&quot;mapping&quot;:{
+},
+&quot;data_meta&quot;:{
+},
+&quot;ggsize&quot;:{
+&quot;width&quot;:500,
+&quot;height&quot;:500
+},
+&quot;ggtitle&quot;:{
+&quot;text&quot;:&quot;Cosine Similarity&quot;
+},
+&quot;kind&quot;:&quot;plot&quot;,
+&quot;scales&quot;:[{
+&quot;aesthetic&quot;:&quot;fill&quot;,
+&quot;low&quot;:&quot;white&quot;,
+&quot;high&quot;:&quot;blue&quot;,
+&quot;scale_mapper_kind&quot;:&quot;color_gradient&quot;
+}],
+&quot;layers&quot;:[{
+&quot;geom&quot;:&quot;tile&quot;,
+&quot;data&quot;:{
+&quot;model_language&quot;:[&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;],
+&quot;dataset_language&quot;:[&quot;de&quot;,&quot;es&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;en&quot;],
+&quot;cos_dist &quot;:[0.15967300174051577,0.08574489503915597,0.09829446873926496,0.10134015063111868,0.10993103983695551,0.11434652159070093,0.27442138241114317,0.26080950705632716,0.33642114622001335,0.39699273461885765,0.3951464298099834,0.4232880242748915]
+},
+&quot;mapping&quot;:{
+&quot;x&quot;:&quot;model_language&quot;,
+&quot;y&quot;:&quot;dataset_language&quot;,
+&quot;fill&quot;:&quot;cos_dist &quot;
+},
+&quot;data_meta&quot;:{
+}
+}],
+&quot;metainfo_list&quot;:[]
+}
+},{
+&quot;x&quot;:500,
+&quot;y&quot;:0,
+&quot;width&quot;:null,
+&quot;height&quot;:null,
+&quot;feature_spec&quot;:{
+&quot;mapping&quot;:{
+},
+&quot;data_meta&quot;:{
+},
+&quot;ggsize&quot;:{
+&quot;width&quot;:500,
+&quot;height&quot;:500
+},
+&quot;ggtitle&quot;:{
+&quot;text&quot;:&quot;Average Score&quot;
+},
+&quot;kind&quot;:&quot;plot&quot;,
+&quot;scales&quot;:[{
+&quot;aesthetic&quot;:&quot;fill&quot;,
+&quot;low&quot;:&quot;white&quot;,
+&quot;high&quot;:&quot;red&quot;,
+&quot;scale_mapper_kind&quot;:&quot;color_gradient&quot;
+}],
+&quot;layers&quot;:[{
+&quot;geom&quot;:&quot;tile&quot;,
+&quot;data&quot;:{
+&quot;model_language&quot;:[&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;],
+&quot;dataset_language&quot;:[&quot;de&quot;,&quot;es&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;en&quot;,&quot;de&quot;,&quot;es&quot;,&quot;en&quot;],
+&quot;avg_score&quot;:[0.45961145257490865,0.3596578905213574,0.39858218671067225,0.24995657709834734,0.2489439262684079,0.30567127420728096,0.2578407135658912,0.28967004164648463,0.34165791188228956,0.2717791754532387,0.2977848773069256,0.356502213774373]
+},
+&quot;mapping&quot;:{
+&quot;x&quot;:&quot;model_language&quot;,
+&quot;y&quot;:&quot;dataset_language&quot;,
+&quot;fill&quot;:&quot;avg_score&quot;
+},
+&quot;data_meta&quot;:{
+}
+}],
+&quot;metainfo_list&quot;:[]
+}
+}]
+};
+       var plotContainer = document.getElementById(&quot;M4uKXI&quot;);
+       LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
+   &lt;/script>
+   &lt;/body>
+&lt;/html>"></iframe>    

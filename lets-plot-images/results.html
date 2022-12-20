@@ -4,7 +4,7 @@
        &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;library&quot; src=&quot;https://cdn.jsdelivr.net/gh/JetBrains/lets-plot@v2.5.1/js-package/distr/lets-plot.min.js&quot;>&lt;/script>
    &lt;/head>
    &lt;body>
-          &lt;div id=&quot;XsHstM&quot;>&lt;/div>
+          &lt;div id=&quot;PHxIVt&quot;>&lt;/div>
    &lt;script type=&quot;text/javascript&quot; data-lets-plot-script=&quot;plot&quot;>
        var plotSpec={
 &quot;kind&quot;:&quot;ggbunch&quot;,
@@ -31,18 +31,26 @@
 &quot;low&quot;:&quot;white&quot;,
 &quot;high&quot;:&quot;blue&quot;,
 &quot;scale_mapper_kind&quot;:&quot;color_gradient&quot;
+},{
+&quot;aesthetic&quot;:&quot;x&quot;,
+&quot;discrete&quot;:true,
+&quot;reverse&quot;:true
+},{
+&quot;aesthetic&quot;:&quot;y&quot;,
+&quot;discrete&quot;:true,
+&quot;reverse&quot;:false
 }],
 &quot;layers&quot;:[{
 &quot;geom&quot;:&quot;tile&quot;,
 &quot;data&quot;:{
-&quot;model_language&quot;:[&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;],
-&quot;dataset_language&quot;:[&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;],
-&quot;cos_simil&quot;:[0.495124863013294,0.23983603403814316,0.12927388324244835,0.5423828693621993,0.5366257741588789,0.2368961195014075,0.11118357816822086,0.4905072917192804,0.4982428667456005,0.271657912691754,0.23597195591474535,0.4921988525392243,0.48235518104905584,0.30594419098973424,0.20498448540803105,0.4849701254897248]
+&quot;model_language&quot;:[&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;],
+&quot;dataset_language&quot;:[&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;],
+&quot;rank&quot;:[4.0,2.0,3.0,1.0,2.0,4.0,1.0,3.0,1.0,2.0,4.0,3.0,2.0,3.0,1.0,4.0]
 },
 &quot;mapping&quot;:{
 &quot;x&quot;:&quot;model_language&quot;,
 &quot;y&quot;:&quot;dataset_language&quot;,
-&quot;fill&quot;:&quot;cos_simil&quot;
+&quot;fill&quot;:&quot;rank&quot;
 },
 &quot;data_meta&quot;:{
 }
@@ -72,13 +80,21 @@
 &quot;low&quot;:&quot;white&quot;,
 &quot;high&quot;:&quot;red&quot;,
 &quot;scale_mapper_kind&quot;:&quot;color_gradient&quot;
+},{
+&quot;aesthetic&quot;:&quot;x&quot;,
+&quot;discrete&quot;:true,
+&quot;reverse&quot;:true
+},{
+&quot;aesthetic&quot;:&quot;y&quot;,
+&quot;discrete&quot;:true,
+&quot;reverse&quot;:false
 }],
 &quot;layers&quot;:[{
 &quot;geom&quot;:&quot;tile&quot;,
 &quot;data&quot;:{
-&quot;model_language&quot;:[&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;],
-&quot;dataset_language&quot;:[&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;,&quot;nl&quot;,&quot;dk&quot;,&quot;se&quot;,&quot;de&quot;],
-&quot;avg_score&quot;:[0.2873287126881779,0.2526210235254765,0.2381285357760165,0.49310188920197656,0.5094319990543368,0.18005610025909244,0.17646640867919125,0.2601777667735642,0.2552509211713288,0.3141020833252727,0.41607119597107334,0.2630136824209609,0.28958934720619656,0.43424409277117876,0.30152839629033656,0.2836758032940812]
+&quot;model_language&quot;:[&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;se&quot;],
+&quot;dataset_language&quot;:[&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;de&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;dk&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;nl&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;,&quot;se&quot;],
+&quot;avg_score&quot;:[0.4936219751844107,0.283987936331757,0.26389477444024095,0.26382486037918385,0.2492856413070752,0.43476674102322355,0.1763982980835445,0.3209090798605376,0.2881107849657297,0.28865867114159915,0.5078186516360148,0.25555156269445595,0.23815896970334366,0.2940951276324401,0.17875868199916042,0.4196200457449394]
 },
 &quot;mapping&quot;:{
 &quot;x&quot;:&quot;model_language&quot;,
@@ -92,7 +108,7 @@
 }
 }]
 };
-       var plotContainer = document.getElementById(&quot;XsHstM&quot;);
+       var plotContainer = document.getElementById(&quot;PHxIVt&quot;);
        LetsPlot.buildPlotFromProcessedSpecs(plotSpec, -1, -1, plotContainer);
    &lt;/script>
    &lt;/body>
